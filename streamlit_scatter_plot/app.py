@@ -19,13 +19,13 @@ import pandas as pd
 import matplotlib
 
 # 設定中文字型
-mpl.font_manager.fontManager.addfont('SimHei.ttf')
+matplotlib.font_manager.fontManager.addfont('SimHei.ttf')
 
 # 設定 matplotlib.rcParams 方法
-matplotlib.rcParams['font.sans-serif'] = ['Microsoft YaHei']
+#matplotlib.rcParams['font.sans-serif'] = ['Microsoft YaHei']
 
 # 設定負號正確顯示
-matplotlib.rcParams['axes.unicode_minus'] = False
+# matplotlib.rcParams['axes.unicode_minus'] = False
 # 設定完成
 
 urls = 'https://raw.githubusercontent.com/rwepa/DataDemo/master/faithful.csv'
