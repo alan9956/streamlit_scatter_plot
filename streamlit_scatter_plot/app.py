@@ -19,7 +19,7 @@ import pandas as pd
 import matplotlib
 
 # 設定中文字型
-matplotlib.font_manager.fontManager.addfont('SimHei.ttf')
+# matplotlib.font_manager.fontManager.addfont('SimHei.ttf')
 
 # 設定 matplotlib.rcParams 方法
 matplotlib.rcParams['font.sans-serif'] = ['Microsoft YaHei']
